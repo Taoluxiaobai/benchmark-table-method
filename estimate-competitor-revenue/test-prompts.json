@@ -1,0 +1,26 @@
+{
+  "skill": "estimate-competitor-revenue",
+  "source": "cangjie distillation of douyin-7645897962001845542",
+  "tests": [
+    {
+      "prompt": "这个抖音小店月入大概多少",
+      "expected": "call",
+      "note": "应调用"
+    },
+    {
+      "prompt": "这个引流到微信成交的账号收入怎么估",
+      "expected": "call",
+      "note": "应调用（私域走流程法）"
+    },
+    {
+      "prompt": "这个项目适不适合我",
+      "expected": "no_call_sibling",
+      "note": "诱饵：应触发 subjective-difficulty-scoring"
+    },
+    {
+      "prompt": "帮我做这家公司的DCF估值",
+      "expected": "no_call",
+      "note": "精确估值，超出量级估算射程"
+    }
+  ]
+}

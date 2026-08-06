@@ -1,0 +1,26 @@
+{
+  "skill": "product-traffic-match",
+  "source": "cangjie distillation of douyin-7645897962001845542",
+  "tests": [
+    {
+      "prompt": "我有一批独家货源，怎么变现",
+      "expected": "call",
+      "note": "应调用（反问匹配流量）"
+    },
+    {
+      "prompt": "为什么他货不如我却卖得比我好",
+      "expected": "call",
+      "note": "应调用"
+    },
+    {
+      "prompt": "帮我在内容平台找10个对标",
+      "expected": "no_call_sibling",
+      "note": "诱饵：应触发 find-benchmarks-on-content-platforms"
+    },
+    {
+      "prompt": "我天猫店月销百万，怎么做品牌升级",
+      "expected": "no_call",
+      "note": "成熟生意，不在射程"
+    }
+  ]
+}

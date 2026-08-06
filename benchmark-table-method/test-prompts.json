@@ -1,0 +1,26 @@
+{
+  "skill": "benchmark-table-method",
+  "source": "cangjie distillation of douyin-7645897962001845542",
+  "tests": [
+    {
+      "prompt": "我想做副业但不知道做什么，给我指条路",
+      "expected": "call",
+      "note": "应调用"
+    },
+    {
+      "prompt": "我在拼多多看到一个爆品纸巾，能直接抄吗",
+      "expected": "no_call_sibling",
+      "note": "诱饵：应触发 find-benchmarks-on-content-platforms"
+    },
+    {
+      "prompt": "这个博主一个月能赚多少",
+      "expected": "no_call_sibling",
+      "note": "诱饵：应触发 estimate-competitor-revenue"
+    },
+    {
+      "prompt": "我的奶茶店想提升复购率",
+      "expected": "no_call",
+      "note": "已有生意在执行，超出射程"
+    }
+  ]
+}

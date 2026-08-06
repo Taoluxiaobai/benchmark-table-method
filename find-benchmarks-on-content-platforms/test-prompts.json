@@ -1,0 +1,26 @@
+{
+  "skill": "find-benchmarks-on-content-platforms",
+  "source": "cangjie distillation of douyin-7645897962001845542",
+  "tests": [
+    {
+      "prompt": "去哪找能模仿的赚钱账号",
+      "expected": "call",
+      "note": "应调用"
+    },
+    {
+      "prompt": "淘宝上这个爆款能不能跟",
+      "expected": "call",
+      "note": "应调用并给出否定+反查路径"
+    },
+    {
+      "prompt": "帮我把这30个对标按收入和难度排个序",
+      "expected": "no_call_sibling",
+      "note": "诱饵：应触发 benchmark-table-method"
+    },
+    {
+      "prompt": "怎么做小红书投放ROI优化",
+      "expected": "no_call",
+      "note": "放量优化，不在射程"
+    }
+  ]
+}

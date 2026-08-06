@@ -1,0 +1,26 @@
+{
+  "skill": "subjective-difficulty-scoring",
+  "source": "cangjie distillation of douyin-7645897962001845542",
+  "tests": [
+    {
+      "prompt": "能不能推荐一个适合我的好项目",
+      "expected": "call",
+      "note": "应调用（解释为何推荐无效+引导自建表格）"
+    },
+    {
+      "prompt": "两个生意都能做，选哪个更适合我",
+      "expected": "call",
+      "note": "应调用"
+    },
+    {
+      "prompt": "这个账号报价多少一条广告",
+      "expected": "no_call_sibling",
+      "note": "诱饵：应触发 estimate-competitor-revenue"
+    },
+    {
+      "prompt": "加盟这个奶茶店要50万牌照费值不值",
+      "expected": "no_call",
+      "note": "纯客观门槛，本skill不调节"
+    }
+  ]
+}
